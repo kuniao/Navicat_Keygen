@@ -131,6 +131,26 @@ namespace Navicat_Keygen_Patch_By_DFoX.Properties {
         }
         
         /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Byte[].
+        /// </summary>
+        internal static byte[] NP_x32 {
+            get {
+                object obj = ResourceManager.GetObject("NP_x32", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Byte[].
+        /// </summary>
+        internal static byte[] NP_x64 {
+            get {
+                object obj = ResourceManager.GetObject("NP_x64", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Icon simile a (Icona).
         /// </summary>
         internal static System.Drawing.Icon Oracle {
@@ -147,16 +167,6 @@ namespace Navicat_Keygen_Patch_By_DFoX.Properties {
             get {
                 object obj = ResourceManager.GetObject("PostgreSQL", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Cerca una risorsa localizzata di tipo System.Byte[].
-        /// </summary>
-        internal static byte[] RegPrivateKey {
-            get {
-                object obj = ResourceManager.GetObject("RegPrivateKey", resourceCulture);
-                return ((byte[])(obj));
             }
         }
         
